@@ -2,8 +2,10 @@ import HomePageComponent from "./component/HomePageComponent";
 import CategoryHome from "./component/category/CategoryHome";
 import ProductDetail from "./component/product/ProductDetail";
 import UpdateProduct from "./component/product/UpdateProduct";
+import Page404 from "./component/Page404";
 const routes = [
      { path: "/trang-chu", component: HomePageComponent, exact: true },
+     { path: "", component: Page404, exact: true },
    
      { path: "/", component: HomePageComponent, exact: true },
      { path: "/bo-suu-tap", component: CategoryHome, exact: true },
